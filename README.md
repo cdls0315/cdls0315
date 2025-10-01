@@ -18,6 +18,36 @@ I study how complex manufacturing systems behave and how to make them better. My
 - 📊 OEE & UPH analytics: data pipelines, validation, and dashboards.  
 - 🧮 Statistical inference & experimental design for industrial settings.  
 - ⚙️ Manufacturing systems modeling: flow, WIP, cycle time, and bottlenecks.
+
+## Projects
+
+### Closed Queuing Network Simulation
+
+A discrete-event simulation for analyzing closed queuing networks in manufacturing systems. This tool helps understand:
+
+- **Work-in-Process (WIP)** dynamics with a fixed number of jobs
+- **Throughput** and **cycle time** performance
+- **Bottleneck identification** through utilization analysis
+- **Queue behavior** at different workstations
+
+**Key Features:**
+- Event-driven simulation engine
+- Configurable routing matrices for complex networks
+- Multiple servers per station
+- Statistical analysis including warmup periods
+- Bottleneck detection and performance metrics
+
+**Usage:**
+```bash
+pip install -r requirements.txt
+python closed_queuing_network.py
+```
+
+**Learn More:**
+- See [`closed_queuing_network.py`](closed_queuing_network.py) for implementation details
+- See [`SIMULATION_GUIDE.md`](SIMULATION_GUIDE.md) for comprehensive documentation
+- Run [`wip_analysis_example.py`](wip_analysis_example.py) for advanced WIP analysis
+- Run [`test_queuing_network.py`](test_queuing_network.py) to verify the implementation
 <!--
 **cdls0315/cdls0315** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
