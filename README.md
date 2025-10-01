@@ -43,7 +43,11 @@ pip install -r requirements.txt
 python closed_queuing_network.py
 ```
 
-See [`closed_queuing_network.py`](closed_queuing_network.py) for implementation details and examples.
+**Learn More:**
+- See [`closed_queuing_network.py`](closed_queuing_network.py) for implementation details
+- See [`SIMULATION_GUIDE.md`](SIMULATION_GUIDE.md) for comprehensive documentation
+- Run [`wip_analysis_example.py`](wip_analysis_example.py) for advanced WIP analysis
+- Run [`test_queuing_network.py`](test_queuing_network.py) to verify the implementation
 <!--
 **cdls0315/cdls0315** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
